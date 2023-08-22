@@ -26,6 +26,10 @@
 	<script src="js/modernizr.js"></script>
 	<script src="js/pace.min.js"></script>
 
+   <!-- favicons
+	================================================== -->
+	<link rel="icon" type="image/png" href="favicon.png">
+
 </head>
 
 <body id="top">
@@ -36,7 +40,11 @@
    	<div class="row">
 
    		<div class="top-bar">
-   			<a class="menu-toggle" href="#"><span>Menu</span></a>		      
+   			<a class="menu-toggle" href="#"><span>Menu</span></a>
+
+	   		<div class="logo">
+		         <a href="index.html">KARDS</a>
+		      </div>		      
 
 		   	<nav id="main-nav-wrap">
 					<ul class="main-navigation">
@@ -77,10 +85,13 @@
    		</div>   		 		
    	</div> <!-- /intro-content --> 
 
-   	<ul class="intro-social">
-		 <li><a href="https://www.instagram.com/khanu.great/"><i class="fa fa-instagram"></i></a></li>
-		</ul> <!-- /intro-social -->
+   	<ul class="intro-social">        
+		<li><a href="https://www.instagram.com/khanu.great/"><i class="fa fa-instagram"></i></a></li>
+      </ul> <!-- /intro-social -->      	
+
    </section> <!-- /intro -->
+
+
    <!-- about section
    ================================================== -->
    <section id="about">  
@@ -106,6 +117,8 @@
    		<div class="col-six tab-full">
 
    			<h3>Profile</h3>
+   			<p>Lorem ipsum Qui veniam ut consequat ex ullamco nulla in non ut esse in magna sint minim officia consectetur nisi commodo ea magna pariatur nisi cillum.</p>
+
    			<ul class="info-list">
    				<li>
    					<strong>Fullname:</strong>
@@ -129,30 +142,31 @@
    			</ul> <!-- /info-list -->
 
    		</div>
+
    		<div class="col-six tab-full">
 
    			<h3>Skills</h3>
+   			<p>Lorem ipsum Qui veniam ut consequat ex ullamco nulla in non ut esse in magna sint minim officia consectetur nisi commodo ea magna pariatur nisi cillum.</p>
+
 				<ul class="skill-bars">
 				   <li>
 				   	<div class="progress percent90"><span>70%</span></div>
-				   	<strong>HTML5</strong>
-				   </li>
-				   <li>
-				   	<div class="progress percent85"><span>65%</span></div>
 				   	<strong>Python</strong>
 				   </li>
 				   <li>
+				   	<div class="progress percent85"><span>65%</span></div>
+				   	<strong>HTML</strong>
+				   </li>
+				   <li>
 				   	<div class="progress percent70"><span>50%</span></div>
-				   	<strong>Javascript</strong>
+				   	<strong>Java</strong>
 				   </li>
 				   <li>
 				   	<div class="progress percent95"><span>65%</span></div>
 				   	<strong>PHP</strong>
 				   </li>
-					<li>
-						<div class="progress percent95"><span>50%</span></div>
-						<strong>Wordpress</strong>
-					</li>
+				   <li>
+      
 				</ul> <!-- /skill-bars -->		
 
    		</div>  
@@ -166,10 +180,63 @@
    			<h5>Portfolio</h5>
    			<h1>Check Out Some of My Works.</h1>
 
-   			<p class="lead"> My Projects So Far.</p>
+   			<p class="lead"> These are some personal projects i have created i am always creting projecta</p>
 
    		</div>   		
-   	</div> <!-- /section-intro-->   
+   	</div> <!-- /section-intro--> 
+
+   	<div class="row portfolio-content">
+
+   		<div class="col-twelve">
+
+   			<!-- portfolio-wrapper -->
+	         <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
+
+	         	<div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/liberty.jpg" alt="Rock, Paper, Sciccors">
+	                  <a href="#modal-01" class="overlay">	                  	           
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+		     					       <h3 class="folio-title">Liberty</h3>	     					    
+		     					    	 <span class="folio-types">
+											Rock, Paper, Sciccors
+		     					       </span>
+		     					   </div>	                      	
+	                     </div>                    
+	                  </a>
+	               </div>	               
+	        		</div> <!-- /folio-item -->
+
+	        		<div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/shutterbug.jpg" alt="General Knowledge">
+	               	<a href="#modal-02" class="overlay">              		                  
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">General Knowledge</h3>	     					    
+		     					    	<span class="folio-types">
+											General Knowledge
+		     					      </span>		     		
+		     					   </div> 	                      	
+	                     </div>                    
+	                  </a>
+	               </div>
+	        		</div> <!-- /folio-item -->
+
+	            <div class="bgrid folio-item">
+	               <div class="item-wrap">
+	               	<img src="images/portfolio/clouds.jpg"alt="Timed Maths quiz">
+	                  <a href="#modal-03" class="overlay">             		                  
+	                     <div class="folio-item-table">
+	                     	<div class="folio-item-cell">
+	                     		<h3 class="folio-title">Timed Maths quiz</h3>	     					    
+		     					    	<span class="folio-types">
+											Timed Maths quiz
+		     					      </span>		     		
+		     					   </div> 	                      	
+	                     </div>                    
+	                  </a>  
 
 	            <!-- modal popups - begin
 	            ============================================================= -->
@@ -180,14 +247,14 @@
 				     	</div>      	
 
 					   <div class="description-box">
-					      <h4>Rock Paper Sciccors</h4>		      
-					      <p> Rock Paper Sciccor vs Computer game.</p>
+					      <h4>Liberty</h4>		      
+					      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
 
-					      <div class="categories">R.P.S</div>			               
+					      <div class="categories">Web Development</div>			               
 					   </div>
 
 			         <div class="link-box">
-			            <a href="https://github.com/Khanu123/R.P.S.py">Details</a>
+			            <a href="http://www.behance.net">Details</a>
 					      <a href="#" class="popup-modal-dismiss">Close</a>
 			         </div>		      
 
@@ -200,14 +267,14 @@
 				     	</div>      	
 
 					   <div class="description-box">
-					      <h4>General Knowledge</h4>		      
-					      <p>A Quiz General Knowleadge Quiz</p>
+					      <h4>Shutterbug</h4>		      
+					      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
 
-					      <div class="categories">General Knowledge.</div>			               
+					      <div class="categories">Web Design</div>			               
 					   </div>
 
 			         <div class="link-box">
-			            <a href="https://github.com/Khanu123/GeneralKnowleadge/blob/main/general%20knowleadge%20quiz.py">Details</a>
+			            <a href="http://www.behance.net">Details</a>
 					      <a href="#" class="popup-modal-dismiss">Close</a>
 			         </div>		      
 
@@ -220,27 +287,37 @@
 				     	</div>      	
 
 					   <div class="description-box">
-					      <h4>Timed Maths quiz</h4>		      
-					      <p>TIme Math quiz</p>
+					      <h4>Clouds</h4>		      
+					      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
 
 					      <div class="categories">Web Design</div>			               
 					   </div>
 
 			         <div class="link-box">
-			            <a href="https://github.com/Khanu123/TimedMaths/blob/main/timed%20math%20quiz.py">Details</a>
+			            <a href="http://www.behance.net">Details</a>
 					      <a href="#" class="popup-modal-dismiss">Close</a>
 			         </div>		      
-					
-					 <script src="path-to-jquery.js"></script>
-					 <script src="path-to-magnific-popup.js"></script>
-					 <script>
-					 $(document).ready(function() {
-						 $('.popup-modal').magnificPopup({
-							 type: 'inline'
-						 });
-					 });
-					 </script>
-					 
+
+				   </div> <!-- /modal-03 -->
+
+				   <div id="modal-04" class="popup-modal slider mfp-hide">	
+
+				     	<div class="media">
+				     		<img src="images/portfolio/modals/m-beetle.jpg" alt="" />
+				     	</div>      	
+
+					   <div class="description-box">
+					      <h4>Beetle</h4>		      
+					      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+
+					      <div class="categories">Branding</div>			               
+					   </div>
+
+			         <div class="link-box">
+			            <a href="http://www.behance.net">Details</a>
+					      <a href="#" class="popup-modal-dismiss">Close</a>
+			         </div>		      
+
 				   <!-- modal popups - end
 	            ============================================================= -->
 
@@ -252,13 +329,12 @@
 		
 	</section> <!-- /portfolio --> 
 
+
 	<!-- services Section
    ================================================== -->
 	<section id="services">
 
-		<div class="overlay">
-
-		</div>
+		<div class="overlay"></div>
 
 		<div class="row section-intro">
    		<div class="col-twelve">
@@ -266,7 +342,7 @@
    			<h5>Services</h5>
    			<h1>What Can I Do For You?</h1>
 
-   			<p class="lead">i am beginner level in this</p>
+   			<p class="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
 
    		</div>   		
    	</div> <!-- /section-intro -->
@@ -283,25 +359,10 @@
 
 	            	 <h3>Webdesign</h3>
 
-		            <p class="desc">entore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+		            <p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
 	         		</p>
 	         		
 	         	</div> 	         	 
-
-				</div> <!-- /service -->
-
-				<div class="service">	
-
-					<span class="icon"><i class="icon-window"></i></span>                          
-
-	            <div class="service-content">	
-
-	            	<h3>Web Development</h3>  
-
-		            <p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
-	         		</p>
-
-	            </div>	                          
 
 			   </div> <!-- /service -->
 
@@ -318,6 +379,21 @@
 
 	            </div> 	            	               
 
+			   </div> <!-- /service -->
+
+				<div class="service">
+
+					<span class="icon"><i class="icon-toggles"></i></span>	              
+
+	            <div class="service-content">
+
+	            	<h3>UI/UX Design</h3>
+
+		            <p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+	         		</p> 
+	         		
+	            </div>                
+
 				</div> <!-- /service -->
 
 			   <div class="service">
@@ -333,20 +409,6 @@
 
 	            </div>	               
 
-			   </div> <!-- /service -->
-
-			   <div class="service">
-
-			   	<span class="icon"><i class="icon-chat"></i></span>	   	           
-
-	            <div class="service-content">
-
-	            	 <h3>Consultancy</h3>
-
-		            <p class="desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
-	        			</p> 
-	        			
-	            </div>	               
 
 			   </div> <!-- /service -->
 
@@ -364,12 +426,54 @@
 		<div class="row">
 			<div class="col-twelve">
 
-				<div class="block-1-3 block-s-1-3 block-tab-1-2 block-mob-full stats-list">
+				<div class="block-1-6 block-s-1-3 block-tab-1-2 block-mob-full stats-list">
 
 					<div class="bgrid stat">
 
 						<div class="icon-part">
 							<i class="icon-pencil-ruler"></i>
+						</div>
+
+						<h3 class="stat-count">
+							500
+						</h3>
+
+						<h5 class="stat-title">
+							Projects Completed
+						</h5>
+
+					</div> <!-- /stat -->					
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-users"></i>
+						</div>
+
+						<h3 class="stat-count">
+							500
+						</h3>
+
+						<h5 class="stat-title">
+							Happy Clients
+						</h5>
+
+					</div> <!-- /stat -->
+
+					<div class="bgrid stat">
+
+						<div class="icon-part">
+							<i class="icon-badge"></i>
+						</div>
+
+						<h3 class="stat-count">
+							20000
+						</h3>
+
+						<h5 class="stat-title">
+							Naps
+						</h5>
+
 					</div> <!-- /stat -->									
 
 					<div class="bgrid stat">
@@ -379,7 +483,7 @@
 						</div>
 
 						<h3 class="stat-count">
-							1000000
+							10000
 						</h3>
 
 						<h5 class="stat-title">
@@ -395,7 +499,7 @@
 						</div>
 
 						<h3 class="stat-count">
-							1500
+							5000
 						</h3>
 
 						<h5 class="stat-title">
@@ -438,7 +542,7 @@
    			<h5>Contact</h5>
    			<h1>I'd Love To Hear From You.</h1>
 
-   			<p class="lead">If you could please give me any feedback or questions you have about my portfolio thank you.</p>
+   			<p class="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
 
    		</div> 
    	</div> <!-- /section-intro -->
@@ -500,7 +604,10 @@
 
    			<h5>Where to find me</h5>
 
-   			<p>London,United Kingdom<br>Cambridge, United Kingdom
+   			<p>
+            1600 Amphitheatre Parkway<br>
+            Mountain View, CA<br>
+            94043 US
             </p>
 
    		</div>
@@ -513,7 +620,8 @@
 
    			<h5>Email Me At</h5>
 
-   			<p>Umargreat2004@gmail.com</p>
+   			<p>Umargreat2004@gmail.com		     
+			   </p>
 
    		</div>
 
@@ -525,7 +633,8 @@
 
    			<h5>Call Me At</h5>
 
-   			<p>Phone: (+44)7462956324</p>
+   			<p>Phone: (+44)7462956324<br>
+			   </p>
 
    		</div>
    		
@@ -536,11 +645,23 @@
 
    <!-- footer
    ================================================== -->
-		 <div id="go-top" class="middle-arrow">
-				<a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
-						
-	</div>
-		<!-- /row -->     	
+
+   <footer>
+     	<div class="row">
+
+     		<div class="col-six tab-full pull-right social">
+
+     			<ul class="footer-social">        
+					<li><a href="https://www.instagram.com/khanu.great/"><i class="fa fa-instagram"></i></a></li>
+			   </ul> 
+	      		
+	      </div>
+
+	      	<div id="go-top">
+		         <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
+		      </div>
+
+      	</div> <!-- /row -->     	
    </footer>  
 
    <div id="preloader"> 
@@ -556,4 +677,3 @@
 </body>
 
 </html>
-
